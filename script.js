@@ -1,4 +1,4 @@
 function contact() {
-    // Example: Open an email link
-    window.location.href = "https://wa.me/+40743522833";
+    // Open the default email client
+    window.location.href = "mailto:sebastian@example.com";
 }
