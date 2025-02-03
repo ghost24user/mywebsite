@@ -1,4 +1,4 @@
 function contact() {
     // Open the default email client
-    window.location.href = "mailto:sebastian@example.com";
+    window.location.href = "https://wa.me/40743522833";
 }
