@@ -1,4 +1,4 @@
-function contact() {
-    // Open the default email client
-    window.location.href = "https://wa.me/40743522833";
-}
+// Optional JavaScript for any future enhancements
+document.addEventListener('DOMContentLoaded', () => {
+  console.log("Landing page loaded successfully.");
+});
