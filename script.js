@@ -1,3 +1,4 @@
-function changeColor() {
-    document.body.style.backgroundColor = '#f1c40f'; // Changes background color on button click
+function contact() {
+    // Example: Open an email link
+    window.location.href = "mailto:sebastian@example.com";
 }
