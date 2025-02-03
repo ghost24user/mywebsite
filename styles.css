@@ -3,26 +3,26 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f9;
-  color: #333;
+  background-color: #2f3136; /* Discord-like gray */
+  color: #ffffff;
 }
 
 header {
   text-align: center;
   padding: 40px 20px;
-  background-color: #ffffff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #23272a; /* Darker gray for header */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
   font-size: 2.5rem;
   margin: 0;
-  color: #2c3e50;
+  color: #ffffff;
 }
 
 header p {
   font-size: 1.2rem;
-  color: #7f8c8d;
+  color: #b9bbbe;
 }
 
 .whatsapp-button {
@@ -32,7 +32,7 @@ header p {
   background-color: #25d366;
   color: #ffffff;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 20px; /* Rounded corners */
   font-size: 1rem;
   transition: background-color 0.3s ease;
 }
@@ -49,9 +49,9 @@ header p {
 }
 
 .service {
-  background-color: #ffffff;
+  background-color: #40444b; /* Service box color */
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   padding: 20px;
   text-align: center;
   transition: transform 0.3s ease;
@@ -61,28 +61,68 @@ header p {
   transform: translateY(-5px);
 }
 
+.service-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Slightly rounded corners for images */
+}
+
 .service h2 {
   font-size: 1.5rem;
-  color: #2980b9;
+  color: #ffffff;
 }
 
 .service p {
   font-size: 1rem;
-  color: #7f8c8d;
+  color: #b9bbbe;
 }
 
 .service-button {
   display: inline-block;
   margin-top: 15px;
   padding: 10px 15px;
-  background-color: #2980b9;
+  background-color: #7289da; /* Button color */
   color: #ffffff;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 20px; /* Rounded corners */
   font-size: 1rem;
   transition: background-color 0.3s ease;
 }
 
 .service-button:hover {
-  background-color: #1a5276;
+  background-color: #5b6eae;
+}
+
+.portfolio {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #23272a; /* Darker gray for portfolio section */
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.portfolio h2 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.portfolio p {
+  font-size: 1rem;
+  color: #b9bbbe;
+}
+
+.portfolio-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #43b581; /* Portfolio button color */
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px; /* Rounded corners */
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.portfolio-button:hover {
+  background-color: #36a74a;
 }
