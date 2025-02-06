@@ -35,7 +35,7 @@ header p {
   border-radius: 20px; /* Rounded corners */
   font-size: 1rem;
   transition: background-color 0.3s ease;
-  width: 200px; /* Fixed width for WhatsApp button */
+  width: auto; /* Fit content width */
 }
 
 .whatsapp-button:hover {
@@ -52,7 +52,7 @@ header p {
   border-radius: 20px; /* Rounded corners */
   font-size: 1rem;
   transition: background-color 0.3s ease;
-  width: 160px; /* 80% of WhatsApp button width */
+  width: auto; /* Fit content width */
 }
 
 .email-button:hover {
