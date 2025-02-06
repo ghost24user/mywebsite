@@ -35,9 +35,27 @@ header p {
   border-radius: 20px; /* Rounded corners */
   font-size: 1rem;
   transition: background-color 0.3s ease;
+  width: 200px; /* Fixed width for WhatsApp button */
 }
 
 .whatsapp-button:hover {
+  background-color: #128C7E;
+}
+
+.email-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #43b581;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px; /* Rounded corners */
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  width: 160px; /* 80% of WhatsApp button width */
+}
+
+.email-button:hover {
   background-color: #128C7E;
 }
 
@@ -56,29 +74,13 @@ header p {
   text-align: center;
   transition: transform 0.3s ease;
   opacity: 0;
-  transform: translateX(-100%);
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
-.service.animate-left {
-  animation: slideInLeft 0.5s ease forwards;
-}
-
-.service.animate-right {
-  animation: slideInRight 0.5s ease forwards;
-}
-
-@keyframes slideInLeft {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideInRight {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
+.service.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .service:hover {
@@ -123,6 +125,14 @@ header p {
   background-color: #23272a; /* Darker gray for portfolio section */
   margin-top: 20px;
   border-radius: 8px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.portfolio.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .portfolio h2 {
@@ -151,55 +161,9 @@ header p {
   background-color: #36a74a;
 }
 
-.contact-email {
-  text-align: center;
-  padding: 40px 20px;
-  background-color: #23272a; /* Darker gray for contact section */
-  margin-top: 20px;
-  border-radius: 8px;
-}
-
-.contact-email h2 {
-  font-size: 2rem;
-  color: #ffffff;
-}
-
-.contact-email p {
-  font-size: 1rem;
-  color: #b9bbbe;
-}
-
-.email-button {
-  display: inline-block;
-  margin-top: 15px;
-  padding: 10px 20px;
-  background-color: #43b581; /* Email button color */
-  color: #ffffff;
-  text-decoration: none;
-  border-radius: 20px; /* Rounded corners */
-  font-size: 1rem;
-  transition: background-color 0.3s ease;
-}
-
-.email-button:hover {
-  background-color: #36a74a;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
   .services-grid {
     grid-template-columns: 1fr; /* 1 column for mobile view */
-  }
-
-  .service {
-    transform: translateX(-100%);
-  }
-
-  .service.animate-left {
-    animation: slideInLeft 0.5s ease forwards;
-  }
-
-  .service.animate-right {
-    animation: slideInRight 0.5s ease forwards;
   }
 }
