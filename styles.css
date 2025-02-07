@@ -43,7 +43,7 @@ header p {
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  grid-template-columns: repeat(3, 1fr); /* 3 columns for desktop */
   gap: 20px;
   padding: 20px;
 }
@@ -147,6 +147,6 @@ header p {
 /* Responsive Design */
 @media (max-width: 768px) {
   .services-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* Single column for mobile */
   }
 }
