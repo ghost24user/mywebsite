@@ -29,7 +29,7 @@ header p {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #43b581;
+  background-color: #1EAEFF;
   color: #ffffff;
   text-decoration: none;
   border-radius: 20px;
@@ -38,7 +38,7 @@ header p {
 }
 
 .whatsapp-button:hover, .email-button:hover {
-  background-color: #36a74a;
+  background-color: #1C90D7;
 }
 
 .services-grid {
@@ -90,7 +90,7 @@ header p {
   display: inline-block;
   margin-top: 15px;
   padding: 10px 15px;
-  background-color: #7289da;
+  background-color: #2F50BC;
   color: #ffffff;
   text-decoration: none;
   border-radius: 20px;
@@ -99,7 +99,7 @@ header p {
 }
 
 .service-button:hover {
-  background-color: #5b6eae;
+  background-color: #1D3995;
 }
 
 .portfolio {
