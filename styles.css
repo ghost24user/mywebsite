@@ -132,7 +132,7 @@ header p {
   display: inline-block;
   margin-top: 15px;
   padding: 10px 20px;
-  background-color: #43b581;
+  background-color: #1EAEFF;
   color: #ffffff;
   text-decoration: none;
   border-radius: 20px;
@@ -141,7 +141,7 @@ header p {
 }
 
 .portfolio-button:hover {
-  background-color: #36a74a;
+  background-color: #1C90D7;
 }
 
 /* Responsive Design */
