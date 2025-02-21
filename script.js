@@ -21,4 +21,16 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   observer.observe(portfolio);
+
+  // Add FAQ to the observer
+  const faq = document.querySelector('.faq');
+  observer.observe(faq);
+
+  // FAQ toggle functionality
+  const faqItems = document.querySelectorAll('.faq-item');
+  faqItems.forEach((item) => {
+    item.addEventListener('click', () => {
+      item.classList.toggle('active');
+    });
+  });
 });
