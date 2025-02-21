@@ -224,7 +224,6 @@ header p {
 .faq-item.active h3 .arrow {
   transform: rotate(180deg);
 }
-
 /* Responsive Design */
 @media (max-width: 768px) {
   .faq-grid {
