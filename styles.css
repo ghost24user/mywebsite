@@ -224,6 +224,16 @@ header p {
 .faq-item.active h3 .arrow {
   transform: rotate(180deg);
 }
+/* Style for the email link in the FAQ */
+.faq-item p a {
+  color: #1EAEFF; /* Light blue color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.faq-item p a:hover {
+  color: #1C90D7; /* Slightly darker blue on hover */
+}
 /* Responsive Design */
 @media (max-width: 768px) {
   .faq-grid {
